@@ -1,0 +1,1 @@
+{"version":3,"file":"bundle.js","mappings":"mBAKAA,QAAQC,IAFG,gB","sources":["webpack://portfolio/./src/index.ts"],"sourcesContent":["\"use strict\";\n// src/main.ts\nfunction greet(name) {\n    return `Hello, ${name}!`;\n}\nconsole.log(greet(\"World\"));\n"],"names":["console","log"],"sourceRoot":""}
