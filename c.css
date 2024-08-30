@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carme&display=swap');
+:root{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    /*variables de colores*/
+    --purple: #85567F;
+    --pink: #8A1871;
+    --blue: #4E9BCB;
+    --white: #fff;
+    --black: #000;
+    --gray: #0C0C0C;
+
+    /*degradados*/
+    --white-to--purple: linear-gradient(90deg,var(--white) 0%, var(--purple) 100%);
+    --blue-to--pink: linear-gradient(90deg,var(--blue) 0%, var(--pink) 100%);
+
+}
+/*
+DEGRADADO: BLANCO  - PURPURA
+linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(138,24,113,1) 100%);
+
+*/
+body{
+
+    background-color: var(--black);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+#my-work{
+    display: flex;
+    flex-direction: column;
+    gap: 10em;
+    width: 90%;
+    justify-content: center;
+}
+
+
+#my-work__title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+
+#my-work--title-sections{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.blue-pink__fill{
+    font-size: 6em;
+    background: var(--blue-to--pink);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+}
+
+/*texto del backend*/
+.outline__fill--blue-pink{
+    background: var(--blue-to--pink); /* esto se cambia dependiendo del color*/
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 3px transparent;
+    color: var(--black);
+    font-size: 3em;
+    text-transform: uppercase;
+}
+.work__section--title{
+    padding: 0 30px;
+    border-radius: 20px;
+
+}
+.click_test{
+    background-color: var(--gray);
+}
+
+/*texto del frontend*/
+.outline__fill--blank{
+    font-size: 3em;
+    text-transform: uppercase;
+    -webkit-text-stroke: 1px  var(--white);
+}
+
+/* --> Imagenes <-- */
+img{
+    width: 100%; /* La imagen ocupa el 100% del ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    max-height: 10vh; /* Limita el ancho máximo */
+}
+
+/*proyectos*/
+.project{
+    display: flex;
+}
+
+.project__skills{
+    display: flex;
+    flex-direction: column;
+    gap: 4em;
+}
+.skill-container{
+    border-radius: 20px;
+    padding: 1.5em;
+}
+
+/*proyectos de spring*/
+.spring{
+    background-color: #0D110A;
+    -webkit-box-shadow: 0px 0px 20px 3px rgba(73,91,61,0.82);
+    -moz-box-shadow: 0px 0px 20px 3px rgba(73,91,61,0.82);
+    box-shadow: 0px 0px 20px 3px rgba(73,91,61,0.82);
+    
+}
+
+.project__title{
+    font-size: 2.5em;
+    background: var(--white-to--purple);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+}
+
+.project__text{
+    font-family: "Carme", sans-serif;
+    font-weight: 400;
+    color: var(--white);
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit:contain;
+}
+.skill-icon-container{
+     height: 100px;
+     width: 100px;
+}

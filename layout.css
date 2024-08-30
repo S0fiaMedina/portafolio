@@ -1,0 +1,13 @@
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.general-grid{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}

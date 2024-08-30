@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- ojo con el web component-->
+    <link href="styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <script src="src/main.js" defer type="module">  </script>
+</head>
+<body>
+    <nav>
+        <div id="nav__icon" class="hidden">
+            <i class='bx bx-menu'></i>
+        </div>
+        
+        <a  class="medium-text" href="" >Sobre mi</a>
+        <a  class="medium-text" href="">Servicios</a>
+        <a  class="medium-text" href="">Marca personal</a>
+        <a  class="medium-text" href="">Proyectos</a>
+        <a  class="medium-text" href="">Certificaciones</a>
+        <a class="medium-text" href="">Contacto</a>
+    </nav>
+    <main>
+        <!-- textos acerca de mi -->
+        <section id="introduction" class="general-grid">
+            
+            <div class="small-title flex-column">
+                Hola,
+                <span class="title"> Soy Sofia</span>
+            </div>
+            <p class="medium-text">
+                Soy una desarrolladora junior con un enfoque en backend y una fuerte aspiración a convertirme en full-stack. Mi pasión es crear soluciones tecnológicas de alta calidad para mis clientes, utilizando un conjunto diverso de herramientas y tecnologías que garantizan eficiencia e innovación en cada proyecto
+            </p>
+
+
+
+            <div class="small-title flex-column" id="title2">
+                Ideas,
+                <span class="title"> en Soluciones</span>
+            </div> 
+            <p class="medium-text">
+                Desde la implementación de servidores con gracias al ecosistema de Spring hasta la creación de scripts en JavaScript, (y mucho más en el futuro), me apasiona transformar las ideas de quienes trabajan conmigo en proyectos extraordinarios, impulsados por la tecnología
+            </p>
+
+
+        </section>
+
+        <!-- Identidad -->
+        <section id="staircase" class="general-grid">
+
+            <div class="staircase__card">
+                <h3 class="text-title">MISIÓN</h3>
+                <p class="medium-text">Mi razon de ser es desarrollar soluciones que resuelvan desafíos complejos, y construir un ambiente de mejora constante orientandome a persona o empresas que quiera dar un paso adelante  para adentrarse o ser más competitivas en el  mundo digital,</p>
+            </div>
+
+            <div class="staircase__card">
+                <h3 class="text-title">VISIÓN</h3>
+                <p class="medium-text">A mediano plazo me visualizo con una trayectoria profesional que me permita abordar proyectos con mayor rigor y profundidad. Estoy comprometida a trabajar intensamente para crear propuestas creativas y humanas que forjen conexiones genuinas con los clientes, trascendiendo el código y creando un impacto duradero</p>
+            </div>
+
+            <div class="staircase__card">
+                <h3 class="text-title">VALORES</h3>
+                <p class="medium-text">
+                    Me esfuerzo por mantener una orientación al logro, enfocándome en alcanzar mis metas con determinación. Creo en la mejora continua para siempre estar aprendiendo y evolucionando. Valoro el trabajo en equipo como un medio para colaborar y lograr objetivos compartidos. La resiliencia me permite enfrentar desafíos con fortaleza y adaptabilidad. Finalmente, la resolución de problemas es esencial para superar obstáculos y encontrar soluciones efectivas.
+                </p>
+            </div>
+        </section>
+
+        <!-- CERTIFICADOSSS -->
+        <section class="flex-column" id="certification__container">
+            
+                <h2 class="title">Certificaciones</h2>
+            
+                <div class="certification flex-column">
+                    <h3 class="medium-text">Tecnico en programación de software</h3>
+                    <span class="medium-text">SENA</span>
+                </div>
+
+                <div class="certification flex-column">
+                    <h3 class="medium-text">Tecnico laboral en competencias de programación de software</h3>
+                    <span class="medium-text">CAMPUSLANDS</span>
+                </div>
+                    
+               
+
+            
+         </section>
+
+        <!-- mi trabajo-->
+         <section id="my-work">
+
+            <div class="general-grid">
+                <h2 class="title">Mi trabajo</h2>
+
+                <div id="back-title" class="selected">
+                    <h3 class="small-title">backend</h3>
+                </div>
+                
+                <div id="front-title">
+                    <h3 class="small-title">frontend</h3>
+                </div>
+                
+            </div>
+
+
+
+
+            
+            <!--
+            ----------------
+            PROYECTOS BACKEND
+            ---------------
+            -->
+            <div class="project__container 
+                        visible
+                        flex-column" 
+                        id="back-projects">
+
+                <div class="project" >
+
+                    <div class="skills__container">
+
+                        <div id="springBoot" class="skill-icon-container spring">
+                            <img src="storage/images/backProjects/spring-boot.png" alt="icono-springboot">
+                        </div>
+                        <div id="springSecurity" class="skill-icon-container spring">
+                            <img src="storage/images/backProjects/spring-security.png" alt="icono-springboot">
+                        </div>
+                        <div id="springJpa" class="skill-icon-container spring">
+                            <img src="storage/images/backProjects/spring-jpa.png" alt="icono-springboot">
+                        </div>
+
+                    </div>
+
+                    <div class="project__info">
+                        <h3 class="project__title small-title">Ecommerce Backend</h3>
+                        <p class="project__desc medium-text">
+                            Proyecto colaborativo  para la gestión de un ecommerce utilizando Spring JPA, Spring Security y MySQL. La colaboración permitió crear un sistema que abarca todos los aspectos clave de la operación de un ecommerce.
+                        </p>
+                        <button class="project__details">  
+                            <i class='bx bxl-github'></i>
+                            <a href="" class="medium-text">Ver repositorio en git hub</a>
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!--
+            ----------------
+            PROYECTOS FRONTTEND
+            ---------------
+            -->
+            <div class="project__container 
+                        flex-column
+                        hidden" id="front-projects">
+                <div class="project" >
+
+                    <div class="skills__container">
+
+                        <div id="html" class="skill-icon-container html">
+                            <img src="storage/images/backProjects/spring-boot.png" alt="icono-springboot">
+                        </div>
+                        <div id="css" class="skill-icon-container css">
+                            <img src="storage/images/backProjects/spring-security.png" alt="icono-springboot">
+                        </div>
+
+                    </div>
+
+                    <div class="project__info">
+                        <h3 class="project__title">Ecommerce Backend</h3>
+                        <p class="project__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium mollitia aliquam iste quae atque, reprehenderit accusamus veritatis, unde, asperiores voluptate et reiciendis. Esse nobis ut ex praesentium ullam veniam culpa.</p>
+                        <button class="project__details">  
+                            <i class='bx bxl-github'></i>
+                            Ver repositorio en git hub
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+         </section>
+
+         <section>
+            <div id="contact__links">
+                <h2>Contactame</h2>
+            
+                <div>
+                    <i class='bx bxl-github'></i>
+                    <i class='bx bxl-linkedin-square'></i>
+                </div>
+
+            </div>
+         </section>
+    </main>
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+
+
+/* --> nav <-- */
+
+nav{
+    overflow: hidden;
+    transition: all .3s;
+}
+
+nav  > a::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    transition: all .3s;
+    z-index: -1;
+    transform: translateX(-100%);
+}
+
+nav > a:hover::before {
+    transform: translateX(0);
+}
+nav > a:hover {
+    color: #000;
+}
+
+.hidden-right {
+    transform: translateX(100px); /* Mueve a la derecha */
+    opacity: 0; /* Desaparece */
+}
+
+.icon-move {
+    transform: translateX( calc(100vw - 100px )); /* Mueve a la derecha */
+}
+
+#nav__icon {
+    transition: transform .7s ease;
+}

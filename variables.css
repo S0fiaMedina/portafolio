@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carme&display=swap');
+
+/* --> variables <--  */
+:root{
+    /*tipos de letra */
+    --titles: "Archivo Black", sans-serif;
+    --text: "Carme", sans-serif;
+    
+    /*tamaños de letra */
+    --medium--size--font:   clamp(15px, 1.5vw, 2rem);
+    --small-tile: clamp(1.5rem, 2.3vw, 2rem);
+    --emphasis: clamp(1.5rem, 4vw, 3rem);
+
+    /* iconos*/
+    --icons-contact: clamp(2rem, 6vw, 7rem);
+
+    /*colores*/
+    --black : #000;
+    --white : #fff;
+
+}
+
+/* --> Texto mediano <-- */
+.medium-text{
+    font-size: var(--medium--size--font);
+    font-family: var(--text);
+}
+
+.small-title,
+.title{
+    font-family: var(--titles);
+}
+
+
+/* --> Titulos pequeños <-- */
+.small-title,
+.text-title{
+    font-size: var(--small-tile);
+}
+/* --> Titulos grandes <-- */
+.title{
+    font-size: var(--emphasis);
+}
+.text-title{
+    font-family: var(--text);
+}
