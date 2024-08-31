@@ -1,6 +1,8 @@
-const icon = document.getElementById('nav__icon');
 const nav = document.querySelector('nav');
-const links = nav.querySelectorAll('a');
+const icon = nav.querySelector('#nav__icon');
+const linksContainer = nav.querySelector('#links__container');
+const links = linksContainer.querySelectorAll('a');
+
 
 /* Función para ocultar el menú cuando se hace scroll */
 window.addEventListener('scroll', function() {
@@ -22,6 +24,7 @@ icon.addEventListener('click', () => {
 
 /* Ocultar enlaces del menú */
 function hideMenu() {
+    linksContainer.classList.remove('vertical');
     links.forEach(link => {
         link.classList.add('hidden-right');
     });
@@ -39,4 +42,9 @@ function toggleMenu() {
     links.forEach(link => {
         link.classList.toggle('hidden-right');
     });
+    linksContainer.classList.toggle("vertical");
 }
+
+
+
+

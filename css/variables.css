@@ -18,6 +18,13 @@
     /*colores*/
     --black : #000;
     --white : #fff;
+    --purple: #85567F;
+    --pink: #8A1871;
+    --blue: #4E9BCB;
+
+    /*degradados*/
+    --white-to--purple: linear-gradient(90deg,var(--white) 0%, var(--purple) 100%);
+    --blue-to--pink: linear-gradient(90deg,var(--blue) 0%, var(--pink) 100%);
 
 }
 
@@ -45,3 +52,4 @@
 .text-title{
     font-family: var(--text);
 }
+
