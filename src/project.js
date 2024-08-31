@@ -59,7 +59,7 @@ MOSTRAR PROYECTOS
 // Función para cargar el JSON
 async function loadProjectData() {
     try {
-        const response = await fetch('../storage/project-data.json');
+        const response = await fetch('storage/project-data.json');
         if (!response.ok) {
             throw new Error('Error al cargar el JSON');
         }
