@@ -1,0 +1,106 @@
+{
+    "backend": [
+            {
+                "title" : "Ecommerce Backend", 
+                "description" : "Proyecto colaborativo  para la gestión de un ecommerce utilizando Spring JPA, Spring Security y MySQL. La colaboración permitió crear un sistema que abarca todos los aspectos clave de la operación de un ecommerce.",
+                "link" : "https://github.com/David-Albarracin/backend_dashboard_ecommerce",
+                "icons": [
+                    {
+                        "path" : "storage/images/backProjects/spring-boot.png",
+                        "colorBg" : "#0D110A",
+                        "shadowColor" : "#495B3D"
+                    },
+                    {
+                        "path" :  "storage/images/backProjects/spring-security.png",
+                        "colorBg" : "#0D110A",
+                        "shadowColor" : "#495B3D"
+                    },
+                    {
+                        "path" : "storage/images/backProjects/spring-jpa.png",
+                        "colorBg" : "#0D110A",
+                        "shadowColor" : "#495B3D"
+                    }
+                ]
+            },
+            {
+                "title" : "Agencia de vuelos",
+                "description" : "'Agencia de vuelos' es una aplicación de consola para las operaciones de un aeropuerto y aerolíneas,  utilizando una arquitectura hexagonal y deslizamiento vertical. empleando Java y JDBC, permitiendo gestionar eficientemente  vuelos, reservas y mantenimiento de aeronaves, asegurando escalabilidad y  rendimiento óptimo.",
+                "link": "https://github.com/S0fiaMedina/AgenciaDeVuelos",
+                "icons" : [
+                    {
+                        "path": "storage/images/backProjects/java.png",
+                        "colorBg" : "#110E0A",
+                        "shadowColor" : "#5A3A1D"
+                    },
+                    {
+                        "path": "storage/images/backProjects/jdbc.png",
+                        "colorBg" : "#110E0A",
+                        "shadowColor" : "#5A3A1D"
+                    }
+                ]
+            },{
+                "title" : "Jardineria",
+                "description" : "proyecto de Base de datos en mySQL para la gestión de los procesos de un comercio de jardinería que parte de un proceso de normalización para almacenar eficientemente con 1000+ registros, la cual  incluye procedimientos almacenados, funciones y subconsultas para la inserción de la información.",
+                "link": "https://github.com/S0fiaMedina/proyectoJardineriaDB_J1",
+                "icons": [
+                    {
+                        "path" : "storage/images/backProjects/mysql.png",
+                        "colorBg" : "#0A1011",
+                        "shadowColor" : "#214D5F"
+                    }
+                ]
+            }
+        ],
+    "frontend" : [
+        {
+            "title" : "Stock Manager",
+            "description": "Este proyecto colaborativo está enfocado en el desarrollo de un  sistema integral de gestión de activos diseñado específicamente para  CampusLands. El sistema tiene como objetivo principal optimizar el  seguimiento, mantenimiento y utilización de los activos de la  institución.",
+            "link" : "https://github.com/S0fiaMedina/j1ProyectoJS",
+            "icons": [
+                {
+                    "colorBg" : "#110E0A",
+                    "shadowColor" : "#5A3A1D",
+                    "path" :  "storage/images/frontProjects/javascript.png" 
+                },
+                {
+                    "colorBg" : "#0E0E0E",
+                    "shadowColor" : "#626262",
+                    "path" :  "storage/images/frontProjects/json.png" 
+                }
+            ]
+        },
+        {
+            "title" : "The Landing Page",
+            "description" : "Este proyecto tiene como objetivo desarrollar una landing page para una  hamburguesería ficticia. La página web estará diseñada para atraer  clientes y promocionar las deliciosas hamburguesas del restaurante.",
+            "link": "https://github.com/S0fiaMedina/proyectoHtmlCss",
+            "icons":[
+                {
+                    "path" : "storage/images/frontProjects/css.png",
+                    "colorBg" : "#08090E",
+                    "shadowColor" : "#2A3869"
+                },{
+                    "colorBg" : "#140B0B",
+                    "shadowColor" : "#743D39",
+                    "path" :  "storage/images/frontProjects/html.png" 
+                }
+            ]
+        },
+        {
+            "title" : "Ecommerce: 'Campus'",
+            "description" : "Este proyecto de frontend para un eCommerce está diseñado para mostrar más de 100 de los juegos más populares de 10 desarrolladores líderes en el mercado. La plataforma cuenta con un diseño adaptable a dispositivos móviles y una interfaz de tema oscuro, ofreciendo un catálogo atractivo y fácil de explorar.",
+            "link": "https://github.com/S0fiaMedina/eCommerceCampus",
+            "icons" :[
+                {
+                    "path" : "storage/images/frontProjects/css.png",
+                    "colorBg" : "#08090E",
+                    "shadowColor" : "#2A3869"
+                },{
+                    "colorBg" : "#140B0B",
+                    "shadowColor" : "#743D39",
+                    "path" :  "storage/images/frontProjects/html.png" 
+                }
+            ]
+        }
+    ]
+}
+
